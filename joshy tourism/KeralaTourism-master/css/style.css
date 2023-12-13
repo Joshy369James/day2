@@ -1,0 +1,93 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+/* index.html */
+#logo{
+   width: 25px;
+   height: 25px;
+}
+h1{
+   text-align: center;
+   color: blueviolet;
+}
+body{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   /* background-image: url('/images/background.jpg'); */
+ }
+
+ .row
+ {
+   background-color:white;
+}
+
+.head-contact{
+   background-color: green;
+}
+.btnContact{
+   text-align: right;
+}
+#imgContact{
+   border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+}
+.btnLogin
+{
+   border:none;
+   height:50px;
+   width: 100%;
+   background-color: rgb(55, 196, 227);
+   color: white;
+   border-radius: 4px;
+   font-weight: bold;
+
+}
+/* signup */
+.login-card{
+   border: 0px;
+   border-radius: 10px;
+   
+   width: 100%;
+   height:100%;
+   padding:75px ;
+
+}
+
+/* cards in district page */
+.card{
+   width:250x;
+   height: 500px;
+}
+
+/* .card-img-top{
+   width:50px;
+   height: 100px;
+} */
+
+/* index -----*/
+.carousel-inner > .carousel-item > img {
+   width:229px;
+  height:220px;
+  align-items: center;
+   
+ }
+
+ /* districts tag in indexpg */
+ #cards-indexpg{
+   background:white;
+   padding: 60px ;
+  text-align: center;
+  }
+
+   h4{
+   padding-left: 30px;
+  }
+
+  /* container for district cards */
+  .cont-Idk{
+   text-align: center;
+  }
+ .cont-Dist{
+   text-align: center;
+  }
